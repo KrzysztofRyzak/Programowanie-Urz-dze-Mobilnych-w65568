@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lista_zakupow_Projekt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="miejsce_wyboru">Miejsce wyboru</string>
+    <string name="wybor">Wybor</string>
+    <string name="ilosc">Ilosc</string>
+    <string name="dodaj_nowy_produkt">Dodaj nowy produkt</string>
+</resources>

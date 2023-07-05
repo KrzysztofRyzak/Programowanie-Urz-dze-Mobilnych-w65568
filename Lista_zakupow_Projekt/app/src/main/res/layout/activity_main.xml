@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ListaRecycleView"
+        android:backgroundTint="#FFFFFF"/>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dodaj produkt"
+        android:id="@+id/ProduktDodajButton"
+        android:backgroundTint="#16DFC8"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        app:icon="@drawable/add_circle_24">
+
+    </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+
+</RelativeLayout>
